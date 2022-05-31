@@ -13,3 +13,4 @@ async function connect(){
         .catch(err=>console.log('Failed to connect to database. Error:'+err.message))
 }
 module.exports = {connect}
+
